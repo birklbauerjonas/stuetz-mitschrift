@@ -1,0 +1,60 @@
+= Mitschrift-Stütz
+Jonas Birklbauer
+1.0.0, 2021-03-07:
+ifndef::imagesdir[:imagesdir: images]
+//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
+:sourcedir: ../src/main/java
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+
+//Need this blank line after ifdef, don't know why...
+ifdef::backend-html5[]
+
+// print the toc here (not at the default position)
+//toc::[]
+
+== SYP
+
+=== UML-Diagramme
+
+==== Class-Diagram (CLD)
+
+Describes the structure of a system by showing the system's classes, their attributes, operations, and the relationships among objects
+
+image::class-diagramm.png[]
+
+==== Use-Case-Diagram (UCD)
+
+A use case diagram at its simplest is a representation of a user's interaction with the system that shows the relationship between the user and the different use cases in which the user is involved
+
+image::use-case-diagramm.png[]
+
+==== OD
+
+Keine Ahnung wos des is
+
+==== Deployment-Diagramm (DD)
+
+A deployment diagram in UML models the physical deployment of artifacts on nodes. To describe a web site, for example, a deployment diagram would show what hardware components ("nodes") exist, what software components ("artifacts") run on each node, and how the different pieces are connected.
+
+==== Kompositionsstruktur-Diagramm (KD)
+
+Das Kompositionsstrukturdiagramm zeigt einheitlich das Innere eines Klassifizierers und dessen Wechselwirkung mit seiner Umgebung.
+
+image::komp-diagramm.png[]
+
+==== Activity-Diagram (ACD)
+
+Activity diagrams are graphical representations of workflows of stepwise activities and actions with support for choice, iteration and concurrency
+
+image::act-diagramm.png[]
+
+==== State-Diagramm  (SD)
+
+Describes the behaviour of systems
+
+image::state-diagramm.jpeg[]
+
+== NVS
+
