@@ -8,6 +8,9 @@ ifndef::imagesdir[:imagesdir: images]
 :sectnums:    // Nummerierung der Überschriften / section numbering
 :toc: left
 
+// Stylesheet
+:stylesheet:stylesheet-dark.css
+
 //Need this blank line after ifdef, don't know why...
 ifdef::backend-html5[]
 
