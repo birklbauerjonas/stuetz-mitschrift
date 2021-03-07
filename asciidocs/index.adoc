@@ -56,5 +56,53 @@ Describes the behaviour of systems
 
 image::state-diagramm.jpeg[]
 
+=== Git
+
+==== Wichtige Commands
+
+https://2021-4ahif-syp.github.io/2021-4ahif-syp-lecture-notes/#_exkurs_git[SYP-Lecture-Notes]
+
+=== Docker
+
+Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels. Because all of the containers share the services of a single operating system kernel, they use fewer resources than virtual machines.
+
+==== Docker-Image
+
+A Docker image is a file, comprised of multiple layers, that is used to execute code in a Docker container
+
+==== Docker-File
+
+A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image.
+
+==== Docker-Compose
+
+Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration.
+
+==== Commands
+
+* List all processes
+----
+'docker ps'
+----
+
+* Kill a process
+----
+docker kill <id>
+----
+
+* Start docker-compose
+----
+docker-compose up -d
+----
+
+* Stop docker-compose
+----
+docker-compose down
+----
+
+=== Arten von Deployments
+
+==== Build-Manager
+
 == NVS
 
